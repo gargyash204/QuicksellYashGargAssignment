@@ -1,5 +1,6 @@
 import React from 'react'
 import './Counter.css'
+import { PropTypes } from 'prop-types'
 
 function Loader(props) {
     if(props.isLoad){
@@ -17,6 +18,10 @@ function Loader(props) {
         )
     }
 }
+
+Loader.propTypes = {
+    isLoad: PropTypes.bool
+};
 
 export default Loader
 
