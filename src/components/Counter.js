@@ -46,7 +46,7 @@ const Counter = () => {
 
     useEffect(async () => {
         setLoading(true);
-        const resp = await Axios.put('https://interview-8e4c5-default-rtdb.firebaseio.com/front-end.json', {"counter22": num });
+        const resp = await Axios.put('https://interview-8e4c5-default-rtdb.firebaseio.com/front-end.json', {"yashgarg": num });
         console.log(resp);
         setLoading(false);
     },[num]);
