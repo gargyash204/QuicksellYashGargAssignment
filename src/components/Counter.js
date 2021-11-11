@@ -37,7 +37,7 @@ const Counter = () => {
             }
             else{
                 setNum(res.data);
-                setMax(res.data);
+                setMax(1000);
             }
             const resp = await Axios.put('https://interview-8e4c5-default-rtdb.firebaseio.com/front-end.json', {"yashgarg": num });
             console.log(resp);
@@ -65,6 +65,9 @@ const Counter = () => {
             <CounterValue
                     data={num}
             />
+            </div>
+            <div className="text">
+                *Note - Assuming max value as 1000 as no max value is present.
             </div>
         </>
     )

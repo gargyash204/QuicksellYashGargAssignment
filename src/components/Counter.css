@@ -61,6 +61,11 @@
     font-size: 20px;
   }
 
+  .text{
+    margin-top: 200px;
+    text-align: center;
+  }
+
 /*CSS for Loader Component*/
 
   .loader {
