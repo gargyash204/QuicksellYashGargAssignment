@@ -14,8 +14,8 @@
     font-size:69%;
     font-weight: bold;
     text-align: center;
-    height: 4ch;
-    width: 6ch;
+    height: 52px;
+    width: 60px;
     border-top: 1px solid;
     border-bottom: 1px solid;
     border-left: 0px;
@@ -37,28 +37,32 @@
     border: 1px solid;
     border-color:brown;
     color:brown;
-    border-bottom-left-radius: 6px;
-    border-top-left-radius: 6px;
+    width: 60px;
+    height: 56px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
     padding: 13.8px 20px;
     text-align: center;
     background-color: white;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 21px;
   }
   
   .btn2 {
     border: 1px solid;
-    border-color:brown;
+    border-color:#B24242;
     color:white;
-    border-bottom-right-radius: 6px;
-    border-top-right-radius: 6px;
+    width: 60px;
+    height: 56px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
     padding: 13.8px 20px;
     text-align: center;
-    background-color: brown;
+    background-color: #B24242;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 21px;
   }
 
   .text{
@@ -151,10 +155,24 @@
 /*CSS for Counter Value Component*/
 
   .mainl{
-    margin-top: 35px;
+    margin-top: 22px;
   }
 
+  
+.mainlo{ 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-width: 20px;
+  margin-bottom: -13px;
+}
+
   .cval{
-    font-size:15px;
-    font-family:'Times New Roman', Times, serif;
+    font-size:12px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -75px;
+    margin-top: -10px;
   }

@@ -5,9 +5,9 @@ import { PropTypes } from 'prop-types'
 function Loader(props) {
     if(props.isLoad){
         return (
-            <div className="main">
+            <div className="mainlo">
                 <div className="loader"></div>
-                Saving counter value...
+                Saving counter value
             </div>
         )
     }

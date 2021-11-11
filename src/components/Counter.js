@@ -57,7 +57,7 @@ const Counter = () => {
             <div className="main">
                 <button className="btn1" onClick={decNum}> - </button>
                 <h1>        
-                    <input className="inp" type="number" value={num} onChange={e => setNum(+e.target.value)} />
+                    <input className="inp" type="numeric" value={num} onChange={e => setNum(+e.target.value)} />
                 </h1>
                 <button className="btn2" onClick={incNum}> + </button>
             </div>
