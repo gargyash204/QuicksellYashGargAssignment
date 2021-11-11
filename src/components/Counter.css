@@ -152,27 +152,27 @@
     }
   }
 
+  .mainlo{ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-width: 20px;
+    margin-bottom: -13px;
+    margin-left: -14px;
+  }
+
 /*CSS for Counter Value Component*/
 
   .mainl{
     margin-top: 22px;
   }
 
-  
-.mainlo{ 
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  border-width: 20px;
-  margin-bottom: -13px;
-}
-
   .cval{
     font-size:12px;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: -75px;
+    margin-left: -80px;
     margin-top: -10px;
   }
