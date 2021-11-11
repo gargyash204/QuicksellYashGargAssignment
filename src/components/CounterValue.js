@@ -4,7 +4,7 @@ import { PropTypes } from 'prop-types'
 function counterValue(props) {
     return (
         <div className="cval">
-            Counter Value : 
+            Counter value : 
             {props.data}
         </div>
     )
